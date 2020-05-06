@@ -76,7 +76,11 @@
         "title" : "我的音乐",
         "domain" : "",
         "router" : {
-            "mode" : "hash"
+            "mode" : "history",
+            "base" : "/my_music/"
+        },
+        "devServer" : {
+            "https" : false
         }
     }
 }
