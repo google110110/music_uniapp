@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "推荐新歌",
+  "usingComponents": {
+    "song": "/components/song/index"
+  }
+}

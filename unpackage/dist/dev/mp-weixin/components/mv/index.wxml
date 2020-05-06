@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['getmv',['$0'],['mv.id']]]]]}}" class="mv-box" bindtap="__e"><view class="mv-img"><image src="{{mv.cover}}" mode></image></view><view class="name sl">{{''+mv.name+''}}</view><view class="artistName sl">{{''+mv.artistName+''}}</view></view>

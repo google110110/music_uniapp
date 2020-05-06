@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "歌单列表",
+  "usingComponents": {
+    "ms-tabs": "/components/ms-tabs/ms-tabs",
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "uni-grid-item": "/components/uni-grid-item/uni-grid-item",
+    "list": "/components/list/index"
+  }
+}

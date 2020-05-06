@@ -1,0 +1,1 @@
+<view class="item-list"><image src="{{songs_list.picUrl}}" mode></image><view class="list-name sl">{{''+songs_list.name+''}}</view><view class="playCount">{{'▷'+$root.f0+''}}</view></view>

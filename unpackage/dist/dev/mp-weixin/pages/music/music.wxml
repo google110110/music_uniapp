@@ -1,0 +1,1 @@
+<view><uni-audio vue-id="a464a218-1" audioList="{{playlist}}" newid="{{id}}" bind:__l="__l"></uni-audio></view>

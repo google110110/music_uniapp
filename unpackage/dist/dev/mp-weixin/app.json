@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/me/me",
+    "pages/village/village",
+    "pages/mv/mv",
+    "pages/playlist/playlist",
+    "pages/music/music",
+    "pages/songlist/songlist",
+    "pages/top/top",
+    "pages/radiostation/radiostation",
+    "pages/djtype/djtype",
+    "pages/djdetails/djdetails",
+    "pages/fm/fm",
+    "pages/daily/daily",
+    "pages/moresonglist/moresonglist",
+    "pages/newsong/newsong",
+    "pages/mvdetails/mvdetails",
+    "pages/mvtype/mvtype",
+    "pages/mvtop/mvtop",
+    "pages/search/search"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "onReachBottomDistance": 20
+  },
+  "tabBar": {
+    "selectedColor": "#e31b08",
+    "fontSize": "11px",
+    "list": [
+      {
+        "text": "发现",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/indexs.png",
+        "selectedIconPath": "static/tabs/index.png"
+      },
+      {
+        "text": "MV",
+        "pagePath": "pages/mv/mv",
+        "iconPath": "static/tabs/mv.png",
+        "selectedIconPath": "static/tabs/mvs.png"
+      },
+      {
+        "text": "云村",
+        "pagePath": "pages/village/village",
+        "iconPath": "static/tabs/village.png",
+        "selectedIconPath": "static/tabs/villages.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/me/me",
+        "iconPath": "static/tabs/me.png",
+        "selectedIconPath": "static/tabs/mes.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-audio": "/components/audioo/index",
+    "uni-fab": "/components/uni-fab/uni-fab",
+    "uni-iconsd": "/components/uni-icons/uni-icons",
+    "uni-header": "/components/header/index"
+  }
+}

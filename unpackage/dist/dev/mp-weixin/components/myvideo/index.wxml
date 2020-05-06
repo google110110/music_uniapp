@@ -1,0 +1,1 @@
+<view class="my-video"><video class="myVideo" src="{{url}}" controls page-gesture enable-play-gesture="{{true}}" vslide-gesture-in-fullscreen autoplay="{{autoplay}}" show-mute-btn data-event-opts="{{[['error',[['videoErrorCallback',['$event']]]]]}}" binderror="__e"></video></view>

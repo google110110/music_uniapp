@@ -1,0 +1,1 @@
+<view><view data-event-opts="{{[['tap',[['getsong',['$0'],['song.id']]]]]}}" class="song-box" bindtap="__e"><view class="song-img"><image src="{{song.picUrl}}" mode></image></view><view class="song-name">{{''+song.name+''}}</view><view class="song-zz">{{''+song.song.artists[0].name+''}}</view></view></view>

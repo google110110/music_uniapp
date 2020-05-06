@@ -1,0 +1,1 @@
+<view class="djtype"><view class="djtype-tit">{{name}}</view><view class="djtype-box"><block wx:for="{{djRadios}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><list vue-id="{{'6415b800-1-'+index}}" list="{{item}}" getlist="{{getlist}}" bind:__l="__l"></list></view></block></view></view>
