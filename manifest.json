@@ -74,13 +74,9 @@
     },
     "h5" : {
         "title" : "我的音乐",
-        "domain" : "",
         "router" : {
-            "mode" : "history",
-            "base" : "/my_music/"
-        },
-        "devServer" : {
-            "https" : false
+            "mode" : "hash",
+            "base" : "/music_uniapp/unpackage/dist/build/h5/"
         }
     }
 }

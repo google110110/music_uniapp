@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "推荐歌单",
+  "usingComponents": {
+    "songslist": "/components/songslist/index"
+  }
+}

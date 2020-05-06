@@ -1,0 +1,155 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "music"
+			}
+		}
+        ,{
+            "path" : "pages/me/me",
+            "style" : {
+				"navigationBarTitleText":"我的"
+			}
+        }
+        ,{
+            "path" : "pages/village/village",
+            "style" : {
+				"navigationBarTitleText":"云村"
+			}
+        }
+        ,{
+            "path" : "pages/mv/mv",
+            "style" : {
+				"navigationBarTitleText":"MV"
+			}
+        }
+        ,{
+            "path" : "pages/playlist/playlist",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }
+        ,{
+            "path" : "pages/music/music",
+            "style" : {
+				"navigationBarTitleText":"音乐"
+			}
+        }
+        ,{
+            "path" : "pages/songlist/songlist",
+            "style" : {
+				"navigationBarTitleText":"歌单列表"
+			}
+        }
+        ,{
+            "path" : "pages/top/top",
+            "style" : {
+				"navigationBarTitleText":"排行榜"
+			}
+        }
+        ,{
+            "path" : "pages/radiostation/radiostation",
+            "style" : {
+				"navigationBarTitleText":"电台"
+			}
+        },
+		{
+		    "path" : "pages/djtype/djtype",
+		    "style" : {
+				"navigationBarTitleText":"电台类型"
+			}
+		},
+		{
+		    "path" : "pages/djdetails/djdetails",
+		    "style" : {
+				"navigationBarTitleText":"电台详情"
+			}
+		}
+        ,{
+            "path" : "pages/fm/fm",
+            "style" : {
+				"navigationBarTitleText":"私人FM"
+			}
+        }
+        ,{
+            "path" : "pages/daily/daily",
+            "style" : {
+				"navigationBarTitleText":"每日推荐"
+			}
+        }
+        ,{
+            "path" : "pages/moresonglist/moresonglist",
+            "style" : {
+				"navigationBarTitleText":"推荐歌单"
+			}
+        }
+        ,{
+            "path" : "pages/newsong/newsong",
+            "style" : {
+				"navigationBarTitleText":"推荐新歌"
+			}
+        }
+        ,{
+            "path" : "pages/mvdetails/mvdetails",
+            "style" : {
+				"navigationBarTitleText":"MV详情"
+			}
+        }
+        ,{
+            "path" : "pages/mvtype/mvtype",
+            "style" : {
+				"navigationBarTitleText":"MV分类"
+			}
+        }
+        ,{
+            "path" : "pages/mvtop/mvtop",
+            "style" : {
+				"navigationBarTitleText":"MV排行榜"
+			}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"navigationBarTitleText":"热门搜索"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"onReachBottomDistance":20
+	},
+	"tabBar":{
+		"selectedColor":"#e31b08",
+		"fontSize":"11px",
+		"list":[
+			{
+				"text":"发现",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/tabs/indexs.png",
+				"selectedIconPath":"static/tabs/index.png"
+			},
+			{
+				"text":"MV",
+				"pagePath":"pages/mv/mv",
+				"iconPath":"static/tabs/mv.png",
+				"selectedIconPath":"static/tabs/mvs.png"
+			},
+			{
+				"text":"云村",
+				"pagePath":"pages/village/village",
+				"iconPath":"static/tabs/village.png",
+				"selectedIconPath":"static/tabs/villages.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/me/me",
+				"iconPath":"static/tabs/me.png",
+				"selectedIconPath":"static/tabs/mes.png"
+			}
+		]
+	}
+}

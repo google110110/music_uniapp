@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.sl.data-v-38720515 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.index-content .uniDrawer.data-v-38720515 {
+  height: calc(100%-110rpx);
+  border-radius: 0 20rpx 20rpx 0;
+  top: 110rpx;
+}
+.index-content .uniDrawer .user-bbox.data-v-38720515 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  position: relative;
+  height: 100%;
+}
+.index-content .uniDrawer .user-bbox .uni-ava image.data-v-38720515 {
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 50%;
+}
+.index-content .uniDrawer .user-bbox .f-n.data-v-38720515 {
+  font-weight: normal !important;
+  display: inline;
+}
+.index-content .uniDrawer .user-bbox > view.data-v-38720515 {
+  padding: 0 20rpx;
+  width: 100%;
+  font-size: 30rpx;
+  font-weight: bold;
+  line-height: 100rpx;
+  height: 100rpx;
+}
+.index-content .uniDrawer .user-bbox .user-tit.data-v-38720515 {
+  margin-top: 80rpx;
+}
+.index-content .uniDrawer .user-bbox .bg.data-v-38720515 {
+  position: absolute;
+  width: 93%;
+  height: 100vh;
+  bottom: 0rpx;
+  left: 0;
+  z-index: -1;
+  -webkit-filter: blur(3rpx);
+          filter: blur(3rpx);
+  opacity: 0.4;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.index-content .bg_gray.data-v-38720515 {
+  color: gray !important;
+  font-weight: bold;
+}
+.index-content .index-swper swiper-item view.data-v-38720515 {
+  margin-left: 20rpx;
+  width: 710rpx;
+  height: 100%;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.index-content .index-swper swiper-item view image.data-v-38720515 {
+  width: 100%;
+}
+.index-content .menu-list.data-v-38720515 {
+  margin-top: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.index-content .menu-list > view.data-v-38720515 {
+  margin-right: 55rpx;
+}
+.index-content .menu-list > view.data-v-38720515:last-child {
+  margin: 0;
+}
+.index-content .menu-list .menu-item.data-v-38720515 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100%;
+  background-color: #f54825;
+}
+.index-content .menu-list .menu-item image.data-v-38720515 {
+  margin: 20%;
+  width: 60%;
+  height: 60%;
+}
+.index-content .menu-list .menu-item image.data-v-38720515:last-child {
+  margin-bottom: 30%;
+}
+.index-content .menu-list .menu-name.data-v-38720515 {
+  text-align: center;
+  font-size: 20rpx;
+  font-weight: 600;
+  line-height: 40rpx;
+}
+.index-content .index-title.data-v-38720515 {
+  margin-top: 20rpx;
+  width: 750rpx;
+  font-size: 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.index-content .index-title view.data-v-38720515 {
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  letter-spacing: 4rpx;
+  font-weight: 650;
+  padding: 0 40rpx;
+}
+.index-content .index-title .index-tit-cont.data-v-38720515 {
+  letter-spacing: 6rpx;
+  font-size: 30rpx;
+}
+.index-content .index-title .index-tit-more.data-v-38720515 {
+  text-align: right;
+  color: red;
+}
+.index-content .index-recommend-list.data-v-38720515 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.index-content .index-recommend-list > view.data-v-38720515 {
+  text-align: center;
+  width: 220rpx;
+  height: 220rpx;
+  margin: 10rpx;
+}
+.index-content .mv-list.data-v-38720515 {
+  width: 750rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10rpx 18rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.index-content .mv-list > view.data-v-38720515 {
+  width: 356rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 3rpx 5rpx;
+}
+

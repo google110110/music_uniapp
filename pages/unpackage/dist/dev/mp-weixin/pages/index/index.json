@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "music",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-fab": "/components/uni-fab/uni-fab",
+    "uni-drawer": "/components/uni-drawer/uni-drawer",
+    "uni-header": "/components/header/index",
+    "songslist": "/components/songslist/index",
+    "song": "/components/song/index",
+    "mv": "/components/mv/index"
+  }
+}
