@@ -38,7 +38,7 @@
 			</swiper>
 			<view class=" zx">
 				<wButton
-					text="退 出"
+					text="注 销"
 					:rotate="isRotate" 
 					@click.native="startLogout()"
 					class="wbutton"
