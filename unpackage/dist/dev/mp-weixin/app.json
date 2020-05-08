@@ -63,5 +63,6 @@
     "uni-fab": "/components/uni-fab/uni-fab",
     "uni-iconsd": "/components/uni-icons/uni-icons",
     "uni-header": "/components/header/index"
-  }
+  },
+  "sitemapLocation": "sitemap83.json"
 }

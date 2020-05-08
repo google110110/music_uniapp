@@ -24,12 +24,12 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.sl.data-v-350c94f1 {
+.sl.data-v-c321c926 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.list-container.data-v-350c94f1 {
+.list-container.data-v-c321c926 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -43,20 +43,20 @@
   padding: 0 24rpx;
   padding-top: 30rpx;
 }
-.list-container .play.data-v-350c94f1 {
+.list-container .play.data-v-c321c926 {
   position: fixed;
   width: 100rpx;
   height: 100rpx;
   right: 50rpx;
   bottom: 200rpx;
 }
-.list-container .play image.data-v-350c94f1 {
+.list-container .play image.data-v-c321c926 {
   width: 100%;
   height: 100%;
   border-radius: 100%;
   border: 5rpx solid #818181;
 }
-.list-container .list.data-v-350c94f1 {
+.list-container .list.data-v-c321c926 {
   width: calc(50% - 8rpx);
   display: -webkit-box;
   display: -webkit-flex;
@@ -66,34 +66,34 @@
   -webkit-flex-direction: column;
           flex-direction: column;
 }
-.list-container .list .item.data-v-350c94f1 {
+.list-container .list .item.data-v-c321c926 {
   margin-bottom: 50rpx;
   border-radius: 10rpx;
   overflow: hidden;
   background-color: #f1f1f1;
 }
-.list-container .list .item image.data-v-350c94f1 {
+.list-container .list .item image.data-v-c321c926 {
   width: 100%;
 }
-.list-container .list .item .desc.data-v-350c94f1 {
+.list-container .list .item .desc.data-v-c321c926 {
   color: #484848;
   margin: 15rpx 0;
   padding: 0 16rpx;
   font-size: 28rpx;
   letter-spacing: 2rpx;
 }
-.list-container .list .item .desc .desc-cont.data-v-350c94f1 {
+.list-container .list .item .desc .desc-cont.data-v-c321c926 {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-.list-container .list .item .desc .desc-cont .cont.data-v-350c94f1 {
+.list-container .list .item .desc .desc-cont .cont.data-v-c321c926 {
   display: inline;
   font-weight: bold;
 }
-.list-container .list .item .desc .desc-ava.data-v-350c94f1 {
+.list-container .list .item .desc .desc-ava.data-v-c321c926 {
   margin-top: 20rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -102,12 +102,12 @@
           justify-content: space-around;
   line-height: 50rpx;
 }
-.list-container .list .item .desc .desc-ava image.data-v-350c94f1 {
+.list-container .list .item .desc .desc-ava image.data-v-c321c926 {
   width: 50rpx;
   height: 50rpx;
   border-radius: 50%;
 }
-.list-container .list .item .desc .desc-ava view.data-v-350c94f1 {
+.list-container .list .item .desc .desc-ava view.data-v-c321c926 {
   letter-spacing: 0;
   text-align: right;
   width: 50%;

@@ -1,6 +1,6 @@
 <template>
 	<view class="list-boxs">
-		<view @click="getlist(list.id)">
+		<view @click="getlist(list.dj.userId)">
 		    <image :src="list.coverImgUrl" mode=""></image>
 			<view class="">
 				{{list.copywriter}}

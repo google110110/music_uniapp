@@ -40,7 +40,7 @@
 						{{item.artists[0].name}}
 					</view>
 				</view>
-				<view class="searchlist-item-score">
+				<view class="searchlist-item-score" v-if="item.score">
 					{{item.score}}
 				</view>
 			</view>
@@ -61,7 +61,7 @@
 						{{item.content}}
 					</view>
 				</view>
-				<view class="searchlist-item-score">
+				<view class="searchlist-item-score" v-if="item.score">
 					{{item.score}}
 				</view>
 			</view>

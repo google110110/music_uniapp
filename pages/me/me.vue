@@ -127,6 +127,7 @@
 			startLogout(){
 				this.isRotate = true
 				this.$login.setLogin({})
+				this.$login.setUserMessage({})
 				this.log = false
 				this.isRotate = false
 			},
@@ -179,10 +180,11 @@
 				}).then((data)=>{
 					this.isRotate=false
 					if(data.data.code == 200){
+						
 						this.log = true
 						this.$login.setLogin({
-							phoneData:this.phoneData,
-							passData:this.passData,
+							phoneData:phone,
+							passData:password,
 							token:data.data.token
 						})
 						let user = data.data

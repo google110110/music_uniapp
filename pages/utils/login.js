@@ -12,7 +12,6 @@ const setLogin = (value)=>{
 	uni.setStorageSync('setUserData',value)
 }
 const getLogin = ()=>{
-	
 	let value = uni.getStorageSync('setUserData')
 	return value
 }

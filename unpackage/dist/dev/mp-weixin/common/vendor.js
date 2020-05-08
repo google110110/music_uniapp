@@ -1690,9 +1690,9 @@ function normalizeComponent (
 /***/ }),
 
 /***/ 15:
-/*!***********************************************!*\
-  !*** D:/uniapp项目/项目实战/pages/utils/request.js ***!
-  \***********************************************/
+/*!**************************************************!*\
+  !*** D:/uniapp项目/myMusic/pages/utils/request.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1727,9 +1727,9 @@ function normalizeComponent (
 /***/ }),
 
 /***/ 16:
-/*!*********************************************!*\
-  !*** D:/uniapp项目/项目实战/pages/utils/music.js ***!
-  \*********************************************/
+/*!************************************************!*\
+  !*** D:/uniapp项目/myMusic/pages/utils/music.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1925,10 +1925,52 @@ var audioWayFunc = function audioWayFunc(index) {
 
 /***/ }),
 
-/***/ 169:
-/*!******************************************************!*\
-  !*** D:/uniapp项目/项目实战/components/uni-icons/icons.js ***!
-  \******************************************************/
+/***/ 17:
+/*!************************************************!*\
+  !*** D:/uniapp项目/myMusic/pages/utils/login.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // let LOGIN = false
+var LOGIN = function LOGIN() {
+  var value = getLogin();
+  if (value) {
+    console.log('已登录');
+    return true;
+  }
+  console.log('未登陆');
+  return false;
+};
+var setLogin = function setLogin(value) {
+  uni.setStorageSync('setUserData', value);
+};
+var getLogin = function getLogin() {
+  var value = uni.getStorageSync('setUserData');
+  return value;
+};
+var getUserMessage = function getUserMessage() {
+  var value = uni.getStorageSync('UserMessage');
+  return value;
+};
+var setUserMessage = function setUserMessage(mes) {
+  uni.setStorageSync('UserMessage', mes);
+};var _default =
+{
+  LOGIN: LOGIN,
+  setLogin: setLogin,
+  getLogin: getLogin,
+  getUserMessage: getUserMessage,
+  setUserMessage: setUserMessage };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+
+/***/ 171:
+/*!*********************************************************!*\
+  !*** D:/uniapp项目/myMusic/components/uni-icons/icons.js ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2031,53 +2073,10 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 
-/***/ 17:
-/*!*********************************************!*\
-  !*** D:/uniapp项目/项目实战/pages/utils/login.js ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // let LOGIN = false
-var LOGIN = function LOGIN() {
-  var value = getLogin();
-  if (value) {
-    console.log('已登录');
-    return true;
-  }
-  console.log('未登陆');
-  return false;
-};
-var setLogin = function setLogin(value) {
-  uni.setStorageSync('setUserData', value);
-};
-var getLogin = function getLogin() {
-
-  var value = uni.getStorageSync('setUserData');
-  return value;
-};
-var getUserMessage = function getUserMessage() {
-  var value = uni.getStorageSync('UserMessage');
-  return value;
-};
-var setUserMessage = function setUserMessage(mes) {
-  uni.setStorageSync('UserMessage', mes);
-};var _default =
-{
-  LOGIN: LOGIN,
-  setLogin: setLogin,
-  getLogin: getLogin,
-  getUserMessage: getUserMessage,
-  setUserMessage: setUserMessage };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-
 /***/ 18:
-/*!**********************************************!*\
-  !*** D:/uniapp项目/项目实战/pages/utils/common.js ***!
-  \**********************************************/
+/*!*************************************************!*\
+  !*** D:/uniapp项目/myMusic/pages/utils/common.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8175,9 +8174,9 @@ module.exports = g;
 /***/ }),
 
 /***/ 4:
-/*!***********************************!*\
-  !*** D:/uniapp项目/项目实战/pages.json ***!
-  \***********************************/
+/*!**************************************!*\
+  !*** D:/uniapp项目/myMusic/pages.json ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -9084,9 +9083,9 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 /***/ }),
 
 /***/ 7:
-/*!****************************************************!*\
-  !*** D:/uniapp项目/项目实战/pages.json?{"type":"style"} ***!
-  \****************************************************/
+/*!*******************************************************!*\
+  !*** D:/uniapp项目/myMusic/pages.json?{"type":"style"} ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9096,9 +9095,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 8:
-/*!***************************************************!*\
-  !*** D:/uniapp项目/项目实战/pages.json?{"type":"stat"} ***!
-  \***************************************************/
+/*!******************************************************!*\
+  !*** D:/uniapp项目/myMusic/pages.json?{"type":"stat"} ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

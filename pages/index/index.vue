@@ -115,7 +115,7 @@
 			></uni-fab>
 		</view>
 		<uni-drawer ref="uniDrawerShow" class="uniDrawer">
-		    <view style="padding:30rpx;" class="user-bbox" v-if="userMse">
+		    <view style="padding:30rpx;" class="user-bbox" v-if="userMse.user">
 				
 				<view class="bg" :style="{'background-image':'url('+userMse.user.profile.backgroundUrl+')'}"></view>
 				<view class="user-tit">账号信息</view>

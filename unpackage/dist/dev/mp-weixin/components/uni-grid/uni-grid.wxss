@@ -24,12 +24,12 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.sl.data-v-76c438ca {
+.sl.data-v-7215f717 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.uni-grid-wrap.data-v-76c438ca {
+.uni-grid-wrap.data-v-7215f717 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -41,7 +41,7 @@
   -webkit-flex-direction: column;
           flex-direction: column;
 }
-.uni-grid.data-v-76c438ca {
+.uni-grid.data-v-7215f717 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -52,7 +52,7 @@
   -webkit-flex-wrap: wrap;
           flex-wrap: wrap;
 }
-.uni-grid--border.data-v-76c438ca {
+.uni-grid--border.data-v-7215f717 {
   border-left-color: #c8c7cc;
   border-left-style: solid;
   border-left-width: 1px;

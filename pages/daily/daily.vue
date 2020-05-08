@@ -10,6 +10,18 @@
 			return {
 				
 			};
+		},
+		onLoad() {
+			this.get()
+		},
+		methods:{
+			get(){
+				this.$request({
+					url:'/recommend/songs'
+				}).then((data)=>{
+					console.log(data)
+				})
+			}
 		}
 	}
 </script>
