@@ -536,13 +536,13 @@ __webpack_require__.r(__webpack_exports__);
 
       }
       if (e.index == 1) {
+        this.play = this.$playMusic.playSong.flag;
         if (this.play) {
           this.$innerAudioContext.pause();
         } else {
           this.$innerAudioContext.play();
         }
-        this.play = this.$playMusic.playSong.flag;
-        console.log(this.$playMusic.playSong, '555');
+        // console.log(this.play,this.$playMusic.playSong,'555')
       }
       if (e.index == 0) {
         this.$playMusic.upPlay();

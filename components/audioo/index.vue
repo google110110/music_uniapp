@@ -4,8 +4,8 @@
 		<view class="bg"></view>
 		<view class="content">
 			<view class="top">
-				<view class="name">{{audioList[audioPlaySrc].name}}</view>
-				<view class="author">{{audioList[audioPlaySrc].al.name}}</view>
+				<view class="name sl">{{audioList[audioPlaySrc].name}}</view>
+				<view class="author sl">{{audioList[audioPlaySrc].al.name}}</view>
 			</view>
 			<view class="micImg">
 				<image :class="playState?'zhuan':''" class="zhuan" :src="audioList[audioPlaySrc].al.picUrl" ></image>

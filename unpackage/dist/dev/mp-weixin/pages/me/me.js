@@ -312,7 +312,6 @@ var _default = {
       then(function (data) {
         _this4.isRotate = false;
         if (data.data.code == 200) {
-
           _this4.log = true;
           _this4.$login.setLogin({
             phoneData: phone,

@@ -1,4 +1,5 @@
 {
   "navigationBarTitleText": "私人FM",
+  "enablePullDownRefresh": true,
   "usingComponents": {}
 }

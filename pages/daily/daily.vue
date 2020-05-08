@@ -12,7 +12,7 @@
 			};
 		},
 		onLoad() {
-			this.get()
+			this.getRefresh()
 		},
 		methods:{
 			get(){
@@ -21,11 +21,19 @@
 				}).then((data)=>{
 					console.log(data)
 				})
+			},
+			getRefresh(){
+				this.$request({
+					url:'/login/status'
+				}).then((data)=>{
+					console.log(data)
+					this.get()
+				})
 			}
 		}
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 </style>

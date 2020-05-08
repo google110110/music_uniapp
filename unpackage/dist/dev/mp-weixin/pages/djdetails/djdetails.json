@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "电台详情",
-  "usingComponents": {}
+  "usingComponents": {
+    "list": "/components/list/index"
+  }
 }

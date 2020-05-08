@@ -1,1 +1,1 @@
-<view></view>
+<view class="data-v-d5b84126"><view class="dj-recommend-box data-v-d5b84126"><block wx:for="{{programs}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['getlist',['$0'],[[['programs','',index]]]]]]]}}" bindtap="__e" class="data-v-d5b84126"><list vue-id="{{'8bd41674-1-'+index}}" list="{{item}}" class="data-v-d5b84126" bind:__l="__l"></list></view></block></view></view>

@@ -16,14 +16,14 @@
 				</swiper>
 			</view>
 			<view class="menu-list">
-				<view @click="mydaily">
+				<!-- <view @click="mydaily">
 					<view class="menu-item">
 						<image src="@/static/icon/calendar.png" mode=""></image>
 					</view>
 					<view class="menu-name sl">
 						每日推荐
 					</view>
-				</view>
+				</view> -->
 				<view @click="navlist('../songlist/songlist')">
 					<view class="menu-item">
 						<image src="@/static/icon/songlist.png" mode=""></image>
@@ -394,13 +394,13 @@
 					})
 				}
 				if(e.index == 1){
+					this.play = this.$playMusic.playSong.flag
 					if(this.play){
 						this.$innerAudioContext.pause()
 					}else{
 						this.$innerAudioContext.play()
 					}
-					this.play = this.$playMusic.playSong.flag
-					console.log(this.$playMusic.playSong,'555')
+					// console.log(this.play,this.$playMusic.playSong,'555')
 				}
 				if(e.index == 0){
 					this.$playMusic.upPlay()

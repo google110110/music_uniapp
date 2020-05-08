@@ -180,7 +180,6 @@
 				}).then((data)=>{
 					this.isRotate=false
 					if(data.data.code == 200){
-						
 						this.log = true
 						this.$login.setLogin({
 							phoneData:phone,
