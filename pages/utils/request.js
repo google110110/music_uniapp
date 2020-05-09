@@ -11,6 +11,11 @@ export default (params) => {
 	return new Promise((res,rej) => {
 		uni.request({
 			...query,
+			// header:{
+			// 	withCredentials: true
+			// },
+			withCredentials:true,
+			// xhrFields: { withCredentials: true },
 			success(data) {
 				res(data);
 			},

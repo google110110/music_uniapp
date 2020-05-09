@@ -4,10 +4,10 @@
 			<view class="song-img">
 				<image :src="song.picUrl" mode=""></image>
 			</view>
-			<view class="song-name">
+			<view class="song-name sl">
 				{{song.name}}
 			</view>
-			<view class="song-zz">
+			<view class="song-zz sl">
 				{{song.song.artists[0].name}}
 			</view>
 		</view>
@@ -69,6 +69,7 @@
 		flex: 1;
 	}
 	.song-zz{
+		width: 140rpx;
 		font-size: 24rpx;
 		float: right;
 	}

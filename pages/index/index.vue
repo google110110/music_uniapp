@@ -16,14 +16,14 @@
 				</swiper>
 			</view>
 			<view class="menu-list">
-				<!-- <view @click="mydaily">
+				<view @click="mydaily">
 					<view class="menu-item">
 						<image src="@/static/icon/calendar.png" mode=""></image>
 					</view>
 					<view class="menu-name sl">
 						每日推荐
 					</view>
-				</view> -->
+				</view>
 				<view @click="navlist('../songlist/songlist')">
 					<view class="menu-item">
 						<image src="@/static/icon/songlist.png" mode=""></image>
